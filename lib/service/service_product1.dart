@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart';
 import 'package:http_https_products1/model/model_product1.dart';
 
-class Http {
+class Network {
   // URL
   static const String baseUrl = "dummyjson.com";
 

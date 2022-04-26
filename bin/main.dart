@@ -1,9 +1,10 @@
 import 'package:http_https_products1/model/model_product1.dart';
 import 'package:http_https_products1/service/service_product1.dart';
 
+
 void main() async {
-  String body = await Http.GET(Http.apiProduct, Http.headers);
-  List<Product> product = Http.parseProduct(body);
+  String body = await Network.GET(Network.apiProduct, Network.headers);
+  List<Product> product = Network.parseProduct(body);
   print(product);
 }
 
